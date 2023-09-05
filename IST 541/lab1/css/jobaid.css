@@ -25,6 +25,7 @@ h1, h2 {
 	font-weight: bold;
 	font-size: 150%;
 	font-family: "Poppins SemiBold";
+	border-radius: 15px;
  }
 
 .stepContent{ 
@@ -35,6 +36,7 @@ h1, h2 {
 	justify-content: left;
 	font-size: 110%;
 	font-family: Poppins;
+	border-radius: 15px;
 }
 
 .stepDescription {
