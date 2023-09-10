@@ -8,7 +8,7 @@ body {
 
 h1, h2 { 
 	text-align:center;     /* centers h1 and h2 content */
-	font-family: "Poppins SemiBold";
+	font-family: 'Poppins', sans-serif;
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -24,7 +24,7 @@ h1, h2 {
 	background-color:#beccd7;
 	font-weight: bold;
 	font-size: 150%;
-	font-family: "Poppins SemiBold";
+	font-family: 'Poppins', sans-serif;
 	border-radius: 15px;
  }
 
@@ -35,7 +35,7 @@ h1, h2 {
 	flex-wrap: wrap;
 	justify-content: left;
 	font-size: 110%;
-	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
 	border-radius: 15px;
 }
 
