@@ -11,14 +11,14 @@ a {
 	padding: 15px;
 margin: 3px;
 	font-size: 100%;
-	background-color:  #dfe6eb; 
+	background-color:  #beccd7; 
 	color:  #000000; 
 	border-radius: 15px;
 }
 
 a:hover {
 	font-size:125%;
-	background-color:lemonchiffon; 
+	background-color:#dfe6eb; 
 	color: #000000;
 	border-radius: 15px;
 }
