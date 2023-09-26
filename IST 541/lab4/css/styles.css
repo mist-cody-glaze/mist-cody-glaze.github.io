@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-image: url("../img//german_flag.png"); /* background image*/
+  color: #444; /* text color for the entire document */
+  font-size: 14px;
+  font-family: century-gothic, sans-serif;
+	padding: 15px;
+}
+#wrapper {
+  width: 900px;
+  margin: 0 auto; /* centers wrapper */
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* creates white background with 80% opacity */
+}
+html {
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+table {
+  margin: 0 auto; /* centers table*/
+}
+td {
+  background-color: white; /* sets background color for table cells*/
+}
+h1 {
+  text-align: center; /* centers h1 and h2 content */
+  font-family: century-gothic, sans-serif;
+  font-size: 400%
+}
+h2 {
+  text-align: center; /* centers h1 and h2 content */
+  font-family: century-gothic, sans-serif;
+  font-size: 200%
+}
+audio {
+  width: 200px; /* sets the width of the audio controls */
+}
+.Image img {
+  width: 150px;
+  height: 150px;
+}
+body {
+  text-align: center;
+  background-color: #7d99af;
+  font-family: century-gothic, sans-serif;
+}
+
+a {
+  padding: 15px;
+  margin: 3px;
+  font-size: 125%;
+  background-color: white;
+  color: #000000;
+  border-radius: 15px;
+}
+a:hover {
+  font-size: 150%;
+  background-color: crimson;
+  color: #000000;
+  border-radius: 15px;
+}
