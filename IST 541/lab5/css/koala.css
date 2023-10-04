@@ -1,51 +1,53 @@
 @charset "utf-8";
 /* CSS Document */
-
-#wrapper {
-width: 900px;
-margin: 0 auto;
-text-align: center;
+body {
+  background-color: pink;
+  padding: 15px;
 }
-
- #ice_cream1 {
-border: black 5px solid;
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Century Old Style Std"
+}
+#ice_cream1 {
+  border: black 5px solid;
+}
+#ice_cream_ingredients {
+  display: none; /* hides content */
+  border: black 5px solid;
 }
 #ice_cream2 {
-border: black 5px solid;
+  border: black 5px solid;
 }
-#ice_cream3 {
-border: black 5px solid;
+#vanillaicecream {
+  display: none; /* hides content */
+  border: black 5px solid;
 }
-#ice_cream4 {
-border: black 5px solid;
+#Ice_cream_parlour {
+  display: none; /* hides content */
+  border: black 5px solid;
 }
-#ice_cream5 {
-border: black 5px solid;
-}
- 
- #cream {
-display: none; /* hides content */
-border: black 5px solid;
-}
-
-#milk {
-display: none; /* hides content */
-border: black 5px solid;
-}
-
-#sugar {
-display: none; /* hides content */
-border: black 5px solid;
-}
-
-#vanilla {
-display: none; /* hides content */
-border: black 5px solid;
-}
-#salt {
-display: none; /* hides content */
-border: black 5px solid;
+#answer {
+  text-align: center;
+  color: black;
+  background-color: darkseagreen;
+  border-radius: 15px;
 }
 .choices {
-cursor: pointer;
+  cursor: pointer;
+}
+a {
+  padding: 15px;
+  margin: 3px;
+  font-size: 100%;
+  background-color: white;
+  color: #000000;
+  border-radius: 60px;
+}
+a:hover {
+  font-size: 150%;
+  background-color: hotpink;
+  color: #000000;
+  border-radius: 60px;
 }

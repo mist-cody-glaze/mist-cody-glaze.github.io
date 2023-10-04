@@ -8,44 +8,30 @@
 </head>
 
 <body>
-<div id="wrapper">
+<div id="wrapper"> <br>
+  
+  <a href="question1.html"> Ingredients</a> <a href="question2.html"> Popular Flavors </a> <br>	
   <h1>What five ingredients do you need to make homeade vanilla ice cream?</h1>
   <h3 id="hint">Hint: Hover over the image below to find out!</h3>
-  <img onmouseenter="showAnswer()" id="ice_cream1"  src="img/ice_cream1.jpg"   /> <img onmouseleave="hideAnswer()" id="cream" src="img/cream.jpg" />
-  <div id="answer"></div>
-  <!-- This is a placeholder to display the answer--> 
-  <br>
-  <img onmouseenter="showAnswer()" id="ice_cream2"  src="img/ice_cream2.jpg"   /> <img onmouseleave="hideAnswer()" id="milk" src="img/milk.jpg" />
+  <img onmouseenter="showAnswer()" id="ice_cream1"  src="img/ice_cream1.jpg"   /> <img onmouseleave="hideAnswer()" id="ice_cream_ingredients" src="img/ice_cream_ingredients.jpg" />
   <div id="answer"></div>
   <!-- This is a placeholder to display the answer--> 
   
 </div>
 <!-- closing  “wrapper” --> 
-<script>
- function showAnswer() {
-	   $("#ice_cream1").hide();
-	   $("#cream").show();
-	   $("#answer").html("<h2>The first ingredient is heavy cream!</h2>");
-	}
 
-function hideAnswer() {
-	   $("#ice_cream1").show();
-	   $("#cream").hide();
-	   $("#answer").html("");  
-	}
-	
 </script> 
 
 	<script>
 	function showAnswer() {
-	   $("#ice_cream2").hide();
-	   $("#milk").show();
-	   $("#answer").html("<h2>The second ingredient is milk!</h2>");
+	   $("#ice_cream1").hide();
+	   $("#ice_cream_ingredients").show();
+	   $("#answer").html("<h2>These are the the five ingredients!</h2>");
 	}
 
 function hideAnswer() {
-	   $("#ice_cream2").show();
-	   $("#milk").hide();
+	   $("#ice_cream1").show();
+	   $("#ice_cream_ingredients").hide();
 	   $("#answer").html("");  
 	}
 	</script>

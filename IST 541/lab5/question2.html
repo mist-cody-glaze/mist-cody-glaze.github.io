@@ -9,28 +9,40 @@
 
 <body>
 <div id="wrapper">
-  <h1>What is a Koala's Favorite Food?</h1>
-  <h3>Click on one of the following choices</h3>
-  <h2 onclick="wrongAnswer1()" class="choices"> Bamboo </h2>
-  <h2 onclick="wrongAnswer2()" class="choices"> Ham </h2>
-  <h2 onclick="rightAnswer()" class="choices"> Eucalyptus </h2>
-  <h2 onclick="wrongAnswer2()" class="choices"> Salami </h2>
+	<br>
+	<a href="question1.html"> Ingredients</a> <a href="question2.html"> Popular Flavors </a> 
+	<br>
+	<br>
+  <h1>What is the most popular ice cream flavor in America?</h1>
+	
+	
+  <h3>Click on one of the following choices:</h3>
+	<br>
+
+	
+  <h2 onclick="wrongAnswer1()" class="choices"> Chocolate </h2>
+<h2 onclick="rightAnswer()" class="choices"> Vanilla </h2>
+  <h2 onclick="wrongAnswer2()" class="choices"> Cookies and Cream </h2>
+  <h2 onclick="wrongAnswer3()" class="choices"> Mint Chocolate Chip </h2>
   <div id="feedback"></div>
-  <img id="koala_eating" src="img/koala_eating.jpg" /> </div>
+  <img id="vanillaicecream" src="img/vanillaicecream.jpg" /> </div>
 <script>
       function rightAnswer(){
-         $("#feedback").html("<h2 style='color:green'> Correct! They are herbivores and love eucalyptus leaves.</h2>");
-         $("#koala_eating").show();
+         $("#feedback").html("<h2 style='color:green'> Correct! Vanilla is the most popular flavor in America.</h2>");
+         $("#vanillaicecream").show();
       }
 	    function wrongAnswer1(){
-      $("#feedback").html("<h2 style='color:red'> Pandas eat bamboo, not koalas! </h2>");
-      $("#koala_eating").hide();
+      $("#feedback").html("<h2 style='color:red'> Chocolate is actually ranked #2 </h2>");
+      $("#vanillaicecream").hide();
    }
    function wrongAnswer2(){
-      $("#feedback").html("<h2 style='color:red'> Koalas don't eat meat. They are herbivores. </h2>");
-      $("#koala_eating").hide();
+      $("#feedback").html("<h2 style='color:red'> Cookies and Cream is ranked third. </h2>");
+      $("#vanillaicecream").hide();
    }
-
+function wrongAnswer3(){
+      $("#feedback").html("<h2 style='color:red'> Mint chocolate Chip ice cream is ranked fourth. </h2>");
+      $("#vanillaicecream").hide();
+   }
    </script>
 </body>
 </html>
