@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-image: url("../img/sfbackground.jpg"); /* background image*/
+  color: #444; /* text color for the entire document */
+  font-size: 16px;
+  font-family: century-gothic, sans-serif;
+	padding: 40px;
+text-align:center;
+}
+#wrapper {
+  width: 900px;
+  margin: 0 auto; /* centers wrapper */
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* creates white background with 80% opacity */
+}
+html {
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+table {
+  margin: 0 auto; /* centers table*/
+	text-align:center;
+}
+td {
+  background-color: white; /* sets background color for table cells*/
+}
+h1 {
+  text-align: center; /* centers h1 and h2 content */
+  font-family: century-gothic, sans-serif;
+  font-size: 400%;
+}
+h2 {
+  text-align: center; /* centers h1 and h2 content */
+  font-family: century-gothic, sans-serif;
+  font-size: 150%;
+}
+h3 {
+	text-align: left;
+	font-family: century-gothic, sans-serif;
+	font-size: 110%;
+	padding: 20px;
+}
+audio {
+  width: 200px; /* sets the width of the audio controls */
+}
+.Image img {
+  width: 150px;
+  height: 150px;
+}
+body {
+  
+  background-color: #444;
+  font-family: century-gothic, sans-serif;
+	text-align: left;
+}
+
+a {
+  padding: 15px;
+  margin: 3px;
+  font-size: 125%;
+  background-color: white;
+  color: #000000;
+  border-radius: 15px;
+}
+a:hover {
+  font-size: 150%;
+  background-color: crimson;
+  color: #000000;
+  border-radius: 15px;
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	background-color:#beccd7;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: century-gothic, sans-serif;
+	
+ }
+
+.stepContent{ 
+	background-color: #dfe6eb;
+	padding:7px;
+	display: flex;/*creates multiple column layout*/
+	flex-wrap: wrap;
+	justify-content: left;
+	font-size: 110%;
+	font-family:century-gothic, sans-serif;
+	
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+	line-height:145%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: left;
+}
+
+.stepImage img {
+    width:100%;
+    height:auto;
+}
+
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:20px;
+	}
+
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
+
+strong {
+  font-weight: 800;
+	
+.image-container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+        }
+
+        .text {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .image-container:hover .image {
+            display: none;
+        }
+
+        .image-container:hover .text {
+            display: block;
+        }
