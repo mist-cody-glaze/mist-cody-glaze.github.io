@@ -1,20 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-<html>
-<head>
-<link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
-<style>
-       .image-container {
-            display: inline-block; /* Make the containers display inline */
-            width: 300px; /* Adjust the width as needed */
-            text-align: center; /* Center align the content */
-            margin: 10px; /* Add spacing between containers */
+    <meta charset="utf-8">
+    <title>lab4</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://use.typekit.net/oov2wcw.css" rel="stylesheet">
+    <style>
+        .image-container {
+            display: inline-block;
+            width: 300px;
+            text-align: center;
+            margin: 10px;
         }
 
         .image {
             width: 100%;
-            height: auto; /* Maintain image aspect ratio */
+            height: auto;
         }
 
         .text {
@@ -31,61 +35,67 @@
         .image-container:hover .text {
             display: block;
         }
-    </style>
+
+        .centered-links {
+            text-align: center;
+        }
     </style>
 </head>
-</html>
 
-<meta charset="utf-8">
-<title>lab4</title>
-<link href="css/styles.css" rel="stylesheet">
-</head>
 <body>
-<div id="wrapper"> <br>
-  <h1> San Francisco Muni 101</h1>
-	<a href="index.html"> Home </a>
-	<a href="history.html"> History </a> 
-	<a href="payment.html"> Payment </a> 
-	<a href="tripplanning.html">Trip Planning </a> 
-	<a href="rules.html"> Rules </a>
-	<a href="mapquiz.html"> Map Quiz </a>
-	<br>
-  <table border="1">
-    <table border="1">
-      <br>
-      <br>
-      <h2> Hover over the images to explore different types of San Francisco Muni vehicles!</h2>
-      <br>
-      <tr>
- 
-<body>
+    <div id="wrapper">
+        <br>
+        <h1> San Francisco Muni 101</h1>
+        <a href="index.html"> Home </a>
+        <a href="history.html"> History </a>
+        <a href="payment.html"> Payment </a>
+        <a href="tripplanning.html">Trip Planning </a>
+        <a href="rules.html"> Rules </a>
+        <a href="mapquiz.html"> Map Quiz </a>
+        <br>
+        <table border="1">
+            <br>
+            <br>
+            <h2> Hover over the images to explore different types of San Francisco Muni vehicles!</h2>
+            <br>
+            <tr>
+                <div class="image-container">
+                    <img src="img/bus.jpg" alt="Hover Over Me" class="image">
+                    <div class="text">
+                        <p>Muni operates an extensive fleet of buses that cover a vast network of routes throughout the city. Buses are a practical and accessible mode of transportation, serving neighborhoods and major thoroughfares.</p>
+                    </div>
+                </div>
 
+                <div class="image-container">
+                    <img src="img/train.jpg" alt="Hover Over Me" class="image">
+                    <div class="text">
+                        <p>The Muni Metro is a light rail system that runs underground through the city center and then transitions to surface-level tracks in other areas. It offers a quick and efficient way to traverse San Francisco.</p>
+                    </div>
+                </div>
 
-	<div class="image-container">
-        <img src="img/bus.jpg" alt="Hover Over Me" class="image">
-        <div class="text">
-            <p>Muni operates an extensive fleet of buses that cover a vast network of routes throughout the city. Buses are a practical and accessible mode of transportation, serving neighborhoods and major thoroughfares.</p>
-        </div>
+                <div class="image-container">
+                    <img src="img/cablecar2.jpg" alt="Hover Over Me" class="image">
+                    <div class="text">
+                        <p>San Francisco's iconic cable cars are not just a mode of transportation but also a tourist attraction. They provide a historic and scenic journey in the heart of the city, with routes such as Powell-Hyde and Powell-Mason.</p>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img src="img/tram.jpg" alt="Hover Over Me" class="image">
+                    <div class="text">
+                        <p>Muni's historic streetcars, often referred to as the F-line, feature vintage vehicles from around the world. They operate on Market Street and the Embarcadero, offering a charming and nostalgic way to explore the city.</p>
+                </div>
+                
+              
+                </div>
+            </div>
+        </table>
+	<br><br>
+	<div class="centered-links">
+                    <a href="https://www.sfmta.com/muni-transit" target="_blank">Information courtesy of SFMTA</a>
+                    <a href="https://pixabay.com/" target="_blank">Image courtesy of Pixabay.com</a>
+		<br><br>
     </div>
-	
-	<div class="image-container">
-        <img src="img/train.jpg" alt="Hover Over Me" class="image">
-        <div class="text">
-            <p>The Muni Metro is a light rail system that runs underground through the city center and then transitions to surface-level tracks in other areas. It offers a quick and efficient way to traverse San Francisco.</p>
-        </div>
-    </div>
-	<br>
-	<div class="image-container">
-        <img src="img/cablecar2.jpg" alt="Hover Over Me" class="image">
-        <div class="text">
-            <p>San Francisco's iconic cable cars are not just a mode of transportation but also a tourist attraction. They provide a historic and scenic journey in the heart of the city, with routes such as Powell-Hyde and Powell-Mason.</p>
-        </div>
-    </div>
-	
-	<div class="image-container">
-        <img src="img/tram.jpg" alt="Hover Over Me" class="image">
-        <div class="text">
-            <p>Muni's historic streetcars, often referred to as the F-line, feature vintage vehicles from around the world. They operate on Market Street and the Embarcadero, offering a charming and nostalgic way to explore the city.</p>
-        </div> 
+</body>
 
 </html>
